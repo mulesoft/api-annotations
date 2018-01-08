@@ -13,7 +13,7 @@ import java.lang.annotation.Documented;
 import java.lang.annotation.Target;
 
 /**
- * Indicates that an interface must not be implemented by clients, as it is designed to be implemented internally on a module.
+ * Indicates that an interface must not be implemented by clients.
  *
  * <p/>
  * As an interface annotated with {@link NoImplement} must not be implemented, this means that the interface can include new

@@ -13,7 +13,7 @@ import java.lang.annotation.Documented;
 import java.lang.annotation.Target;
 
 /**
- * Indicates that a class must not be instantiated by clients, as it is designed to be instantiated internally on a module.
+ * Indicates that a class must not be instantiated by clients.
  * <p/>
  * As a class annotated with {@link NoInstantiate} must not be instantiated, the constructors parts of this class definition will
  * not be considered part of the API, so they can change without considering those changes as backwards incompatible. Note that
