@@ -25,7 +25,7 @@ restrictions about how an element is supposed to be used and allowing a set of c
 
 Interfaces define types, allowing to separate the type definition from the implementation, and also make possible to split modules
 in two to break cyclic dependencies. In general, interfaces are supposed to be implemented by consumers of a given API. In these
-cases, adding non default new methods in minor versions will break the API, as existing implementations won?t have the new method
+cases, adding non default new methods in minor versions will break the API, as existing implementations won't have the new method
 implemented.
 However, there are interfaces that are part of the API but are not supposed to be implemented by consumers of the API, they are
 only implemented inside the runtime or related modules. API users will just consume the interface. In these cases, there is no
