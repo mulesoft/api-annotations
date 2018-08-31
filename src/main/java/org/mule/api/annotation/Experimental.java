@@ -14,6 +14,6 @@ import java.lang.annotation.Target;
 
 @Documented
 @Target(value = {TYPE, METHOD})
-public @interface Beta {
+public @interface Experimental {
 
 }
