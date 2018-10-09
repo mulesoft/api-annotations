@@ -12,6 +12,15 @@ import static java.lang.annotation.ElementType.TYPE;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Target;
 
+/**
+ * Marks the annotated member as experimental. Experimental features are not to be considered production ready.
+ * MuleSoft does not offer support on them nor guarantees backwards compatibility on them.
+ *
+ * You can try them if you want, but keep in mind that the final version to be GA might not be backwards compatible or even
+ * removed completely.
+ *
+ * @since 1.0.2
+ */
 @Documented
 @Target(value = {TYPE, METHOD})
 public @interface Experimental {
