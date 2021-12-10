@@ -7,6 +7,7 @@
 
 package org.mule.api.annotation;
 
+import static java.lang.annotation.ElementType.CONSTRUCTOR;
 import static java.lang.annotation.ElementType.TYPE;
 
 import java.lang.annotation.Documented;
@@ -24,7 +25,7 @@ import java.lang.annotation.Target;
  * @since 1.0
  */
 @Documented
-@Target(value = {TYPE})
+@Target(value = {TYPE, CONSTRUCTOR})
 public @interface NoInstantiate {
 
 }
