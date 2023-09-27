@@ -31,20 +31,4 @@ public @interface ServiceModule {
    */
   RequiredOpens[] requiredOpens() default {};
 
-  @Documented
-  @Retention(RUNTIME)
-  public @interface RequiredOpens {
-
-    /**
-     * @return the name of the module in the boot layer to open the {@code packageNames} from.
-     */
-    String moduleName();
-
-    /**
-     * @return the names of the packages to open from {@code moduleName} to the annotated service module.
-     */
-    String[] packageNames();
-
-  }
-
 }
