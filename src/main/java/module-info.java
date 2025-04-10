@@ -6,7 +6,7 @@
  */
 /**
  * Annotations used for Mule Module API definition.
- * 
+ *
  * @moduleGraph
  * @since 1.5
  */

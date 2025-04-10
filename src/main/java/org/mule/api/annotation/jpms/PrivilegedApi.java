@@ -15,7 +15,7 @@ import java.lang.annotation.Target;
 
 /**
  * Defines the privileged API of a module that is part of the Mule Runtime Container.
- * 
+ *
  * @since 1.6
  */
 @Documented
