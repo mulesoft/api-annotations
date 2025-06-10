@@ -2,6 +2,7 @@ mavenSettingsXmlId: mule-runtime-maven-settings-MuleSettings
 projectType: runtime
 enableMavenTestStage: false
 jdkTool: OPEN-JDK17
+mavenTool: "3.9.9"
 additionalTestConfigs:
   jdk8:
     testJdkTool: OPEN-JDK8
